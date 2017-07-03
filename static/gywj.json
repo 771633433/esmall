@@ -1,0 +1,69 @@
+{
+  "code": 0, 
+  "data": [
+    {
+      "id": "0", 
+      "title": "工业五金", 
+      "name": "除尘设备", 
+      "brand": "品牌：泰佰亿", 
+      "pudate": "1488437386", 
+      "status": "true", 
+      "cateid": "3", 
+      "images": [
+        {
+          "image_id": "24", 
+          "image_name": "mhhj.png", 
+          "book_id": "23"
+        }
+      ]
+    }, 
+    {
+      "id": "1", 
+      "title": "", 
+      "name": "气动元件", 
+      "brand": "品牌：麦特沃克 亚德客", 
+      "pudate": "1488437244", 
+      "status": "true", 
+      "cateid": "3", 
+      "images": [
+        {
+          "image_id": "25", 
+          "image_name": "mhhj.png", 
+          "book_id": "22"
+        }
+      ]
+    },
+    {
+      "id": "2", 
+      "title": "", 
+      "name": "工业五金", 
+      "brand": "品牌：通润 肯泰特 maxon motor", 
+      "pudate": "1488437244", 
+      "status": "true", 
+      "cateid": "3", 
+      "images": [
+        {
+          "image_id": "25", 
+          "image_name": "mhhj.png", 
+          "book_id": "22"
+        }
+      ]
+    },
+    {
+      "id": "3", 
+      "title": "", 
+      "name": "电动工具", 
+      "brand": "品牌：优利德", 
+      "pudate": "1488437244", 
+      "status": "true", 
+      "cateid": "3", 
+      "images": [
+        {
+          "image_id": "25", 
+          "image_name": "mhhj.png", 
+          "book_id": "22"
+        }
+      ]
+    }
+  ]
+}

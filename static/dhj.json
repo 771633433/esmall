@@ -1,0 +1,118 @@
+{
+  "code": 0, 
+  "data": [
+    {
+      "id": "0", 
+      "title": "电焊机", 
+      "name": "等离子焊机", 
+      "brand": "品牌：华恒", 
+      "pudate": "1488437386", 
+      "status": "true", 
+      "cateid": "3", 
+      "images": [
+        {
+          "image_id": "24", 
+          "image_name": "dlzhj.png", 
+          "book_id": "23"
+        }
+      ]
+    }, 
+    {
+      "id": "1", 
+      "title": "", 
+      "name": "埋弧焊机", 
+      "brand": "品牌：TW渤洱康", 
+      "pudate": "1488437244", 
+      "status": "true", 
+      "cateid": "3", 
+      "images": [
+        {
+          "image_id": "25", 
+          "image_name": "mhhj.png", 
+          "book_id": "22"
+        }
+      ]
+    }, 
+    {
+      "id": "2", 
+      "title": "", 
+      "name": "MIG气保焊机", 
+      "brand": "品牌：熊谷 TW渤洱康", 
+      "pudate": "1488437064", 
+      "status": "true", 
+      "cateid": "3", 
+      "images": [
+        {
+          "image_id": "23", 
+          "image_name": "qbhj.png", 
+          "book_id": "21"
+        }
+      ]
+    }, 
+    {
+      "id": "3", 
+      "title": "", 
+      "name": "TIG氩弧焊机", 
+      "brand": "品牌：熊谷 TW渤洱康", 
+      "pudate": "1488436784", 
+      "status": "true", 
+      "cateid": "3", 
+      "images": [
+        {
+          "image_id": "22", 
+          "image_name": "yhhj.png", 
+          "book_id": "20"
+        }
+      ]
+    }, 
+    {
+      "id": "4", 
+      "title": "",
+      "name": "手工弧焊机", 
+      "brand": "品牌：熊谷 TW渤洱康", 
+      "price": 33.2, 
+      "pudate": "1488436603", 
+      "status": "true", 
+      "cateid": "2", 
+      "images": [
+        {
+          "image_id": "21", 
+          "image_name": "sghhj.png", 
+          "book_id": "19"
+        }
+      ]
+    },
+    {
+      "id": "5", 
+      "title": "", 
+      "name": "等离子切割机", 
+      "brand": "品牌：博尼 华远 安德利", 
+      "pudate": "1488436784", 
+      "status": "true", 
+      "cateid": "3", 
+      "images": [
+        {
+          "image_id": "22", 
+          "image_name": "dlzqgj.png", 
+          "book_id": "20"
+        }
+      ]
+    },
+    {
+      "id": "6", 
+      "title": "", 
+      "name": "螺柱焊机", 
+      "brand": "品牌：泰勒", 
+      "pudate": "1488436784", 
+      "status": "true", 
+      "cateid": "3", 
+      "images": [
+        {
+          "image_id": "22", 
+          "image_name": "lzhj.png", 
+          "book_id": "20"
+        }
+      ]
+    }
+  ]
+}

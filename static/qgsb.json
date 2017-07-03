@@ -1,0 +1,53 @@
+{
+  "code": 0, 
+  "data": [
+    {
+      "id": "0", 
+      "title": "切割设备", 
+      "name": "切割电源", 
+      "brand": "品牌：hypertherm(海宝) 飞马特", 
+      "pudate": "1488437386", 
+      "status": "true", 
+      "cateid": "3", 
+      "images": [
+        {
+          "image_id": "24", 
+          "image_name": "mhhj.png", 
+          "book_id": "23"
+        }
+      ]
+    }, 
+    {
+      "id": "1", 
+      "title": "", 
+      "name": "切割机系统", 
+      "brand": "品牌：沪工 斯霓瑞 汉神 宣邦 亚鸿数控", 
+      "pudate": "1488437244", 
+      "status": "true", 
+      "cateid": "3", 
+      "images": [
+        {
+          "image_id": "25", 
+          "image_name": "mhhj.png", 
+          "book_id": "22"
+        }
+      ]
+    },
+    {
+      "id": "2", 
+      "title": "", 
+      "name": "焊接专机系统", 
+      "brand": "品牌：华恒 尼德曼", 
+      "pudate": "1488437244", 
+      "status": "true", 
+      "cateid": "3", 
+      "images": [
+        {
+          "image_id": "25", 
+          "image_name": "mhhj.png", 
+          "book_id": "22"
+        }
+      ]
+    }
+  ]
+}

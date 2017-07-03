@@ -1,0 +1,102 @@
+{
+  "code": 0, 
+  "data": [
+    {
+      "id": "0", 
+      "title": "辅机具", 
+      "name": "滚轮架", 
+      "brand": "品牌：华恒", 
+      "pudate": "1488437386", 
+      "status": "true", 
+      "cateid": "3", 
+      "images": [
+        {
+          "image_id": "24", 
+          "image_name": "mhhj.png", 
+          "book_id": "23"
+        }
+      ]
+    }, 
+    {
+      "id": "1", 
+      "title": "", 
+      "name": "变位机", 
+      "brand": "品牌：华恒 振康", 
+      "pudate": "1488437244", 
+      "status": "true", 
+      "cateid": "3", 
+      "images": [
+        {
+          "image_id": "25", 
+          "image_name": "mhhj.png", 
+          "book_id": "22"
+        }
+      ]
+    }, 
+    {
+      "id": "2", 
+      "title": "", 
+      "name": "焊接工装", 
+      "brand": "品牌：顶瑞", 
+      "pudate": "1488437064", 
+      "status": "true", 
+      "cateid": "3", 
+      "images": [
+        {
+          "image_id": "23", 
+          "image_name": "mhhj.png", 
+          "book_id": "21"
+        }
+      ]
+    }, 
+    {
+      "id": "3", 
+      "title": "", 
+      "name": "送丝机", 
+      "brand": "品牌：顶瑞 振康 NEBULA", 
+      "pudate": "1488436784", 
+      "status": "true", 
+      "cateid": "3", 
+      "images": [
+        {
+          "image_id": "22", 
+          "image_name": "mhhj.png", 
+          "book_id": "20"
+        }
+      ]
+    }, 
+    {
+      "id": "4", 
+      "title": "",
+      "name": "平口机/坡口机", 
+      "brand": "品牌：OTTO 吉必喜 华恒", 
+      "price": 33.2, 
+      "pudate": "1488436603", 
+      "status": "true", 
+      "cateid": "2", 
+      "images": [
+        {
+          "image_id": "21", 
+          "image_name": "mhhj.png", 
+          "book_id": "19"
+        }
+      ]
+    },
+    {
+      "id": "5", 
+      "title": "", 
+      "name": "操作机", 
+      "brand": "品牌：华恒", 
+      "pudate": "1488436784", 
+      "status": "true", 
+      "cateid": "3", 
+      "images": [
+        {
+          "image_id": "22", 
+          "image_name": "mhhj.png", 
+          "book_id": "20"
+        }
+      ]
+    }
+  ]
+}

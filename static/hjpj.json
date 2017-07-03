@@ -1,0 +1,37 @@
+{
+  "code": 0, 
+  "data": [
+    {
+      "id": "0", 
+      "title": "焊接配件", 
+      "name": "焊枪/配件", 
+      "brand": "品牌：华恒 泰佰亿 熊谷 欧亚新 金瑞克", 
+      "pudate": "1488437386", 
+      "status": "true", 
+      "cateid": "3", 
+      "images": [
+        {
+          "image_id": "24", 
+          "image_name": "dlzhj.png", 
+          "book_id": "23"
+        }
+      ]
+    }, 
+    {
+      "id": "1", 
+      "title": "", 
+      "name": "华恒配件", 
+      "brand": "品牌：华恒", 
+      "pudate": "1488437244", 
+      "status": "true", 
+      "cateid": "3", 
+      "images": [
+        {
+          "image_id": "25", 
+          "image_name": "mhhj.png", 
+          "book_id": "22"
+        }
+      ]
+    }
+  ]
+}
