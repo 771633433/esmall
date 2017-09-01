@@ -21,6 +21,7 @@
     </div>
 
     <!--  九大块 -->
+    <!--九大块最好使用v-for 当时没考虑到  后面会改-->
     <div class="items">
       <router-link to="list/dhj">
         <div class="dhj" >
