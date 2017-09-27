@@ -10,9 +10,11 @@
         <!--搜索栏-->
     <div class="search">
       <div class="left">
-      <input id="inp" type="text" placeholder="搜索品牌/系列/型号">
+      <input style="text-indent:4px;" id="inp" type="text" placeholder="搜索品牌/系列/型号">
       </div>
-      <div class="right"><img :src="seller.search"></div>
+      <!-- search 那个放大镜按钮-->
+      <div class="right">
+        <img class="search_icon" :src="seller.search"></div>
     </div>
 
         <!--  钱柜-->
@@ -21,7 +23,6 @@
     </div>
 
     <!--  九大块 -->
-    <!--九大块最好使用v-for 当时没考虑到  后面会改-->
     <div class="items">
       <router-link to="list/dhj">
         <div class="dhj" >
@@ -109,7 +110,7 @@
       <br>
       <span></span><br>
       <span>
-            技术支持：鼎联网络科技
+            技术支持：鼎灏网络科技
       </span>
       
     </div>
@@ -142,9 +143,9 @@
 
               /* 请求foo.json里面的数据,做成详情页 */
         axios.get("../../../static/fjj.json")
-          .then( (response)=> {
-            console.log(response.data.data[1].id);
-              this.machines = response.data.data;
+          .then( (res)=> {
+              //console.log(res.data.data[1].id); // 1
+              this.machines = res.data.data;
           })
             .catch((error)=> {
             console.log(error);
@@ -156,117 +157,116 @@
 </script>
 
 <style type="text/css">
- input{
+*{
+    margin: 0;
+    padding: 0
+}
+input{
    border:none;
- }
-    li{
-        list-style: none;
-        padding: 0;
-        margin: 0
-    }
+}
+li{
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
 
-    .div1{
+.div1{
       background: #f5efef
-    }
+}
   
-    .slider{
-        background: #f5efef
-      }
-    .right{
-      width: 41px;
-      height: 42px;
-      float: right
-    }
+.slider{
+    background: #f5efef
+}
+.right{
+    width: 41px;
+    height: 42px;
+    float: right
+}
 
-    .search{
-        position: relative;
-        width: 100%;
-        height: 42px;
-        padding-top: 10px;
-        background: #f5efef;
-    } 
-    *{
-        margin: 0;
-        padding: 0
-    }
-    #inp{
-      font-size:16px;
-      height: 30px;
-      width: 80%;
-      position: absolute;
-      left: 12px;
-    }
+.search{
+    position: relative;
+    width: 100%;
+    height: 42px;
+    padding-top: 10px;
+    background: #f5efef;
+} 
+ 
+#inp{
+    font-size:16px;
+    height: 30px;
+    width: 80%;
+    position: absolute;
+    left: 12px;
+}
 
-    .qiangui{
-      width: 100%;
-    }
+.qiangui{
+    width: 100%;
+}
 
-    .items{
-        width: 96%;
-        height: 300px;
-        margin: 0 auto;
-        margin-top: 5px;
-        border-top: 1px solid #ccc;
-        border-left: 1px solid #ccc;
-        background: #fafafa;
-        box-sizing: border-box;
+.items{
+    width: 96%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 5px;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    background: #fafafa;
+    box-sizing: border-box;
+}
 
-    }
+.dhj{
+    width: 33.33%;
+    height: 100px;
+    text-align: center;
+    color:#989898 ;
+    float: left;
+    border-right:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    box-sizing: border-box;
+}
 
-    .dhj{
-      width: 33.33%;
-      height: 100px;
-      text-align: center;
-      color:#989898 ;
-      float: left;
-      border-right:1px solid #ccc;
-      border-bottom:1px solid #ccc;
-      box-sizing: border-box;
-    }
+.img{
+    padding-bottom: 6px;
+    padding-top: 10%;
+    width: 52px;
+    height: 52px;
+    text-align: center;
+}
 
-    .img{
-      padding-bottom: 6px;
-      padding-top: 10%;
-      width: 52px;
-      height: 52px;
-      text-align: center;
-    }
+.foot{
+    width: 96%;
+    height: 50px;
+    border:1px solid #ccc; 
+    margin: 0 auto;
+    margin-top:10px;
+    box-sizing: border-box;
+}
+.foot ul{
+    width:96%;
+    height:50px;
+}
 
-    .foot{
-      width: 96%;
-      height: 50px;
-      border:1px solid #ccc; 
-      margin: 0 auto;
-      margin-top:10px;
-      box-sizing: border-box;
-    }
+.foot ul li {
+    float:left;
+    width:50%;
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+    color: #989898;
+}
 
-    .foot ul{
-        width:96%;
-        height:50px;
-    }
+.foot ul li:nth-of-type(1) {
+    box-sizing: border-box;
+    border-right:1px solid #ccc;
+}
 
-    .foot ul li {
-      float:left;
-      width:50%;
-      height:50px;
-      text-align: center;
-      line-height: 50px;
-      color: #989898;
-    }
-
-    .foot ul li:nth-of-type(1) {
-      box-sizing: border-box;
-      border-right:1px solid #ccc;
-    }
-
-    .feet {
-      width:96%;
-      height:auto;
-      margin:0 auto;
-      padding-bottom:10px;
-      text-align: center;
-      color: #989898;
-      font-size: 14px;
-    }
+.feet {
+    width:96%;
+    height:auto;
+    margin:0 auto;
+    padding-bottom:10px;
+    text-align: center;
+    color: #989898;
+    font-size: 14px;
+}
 </style>
