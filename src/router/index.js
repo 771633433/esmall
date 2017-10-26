@@ -4,7 +4,11 @@ import banner from '@/components/banner/banner'
 import dhj from '@/components/dhj/dhj'
 import detail from '@/components/detail/detail'
 
+import iView from 'iview'
+import 'iview/dist/styles/iviews.css';   // 使用css样式 
+
 Vue.use(Router)
+Vue.use(iView)
 
 const router = new Router({
 	routes:[
