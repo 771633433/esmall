@@ -3,9 +3,11 @@
 				<!--  顶部信息 	-->
 		<div class="header">
 			埃森商城
-			<router-link to="/goods">
-				<div class="back"><img src="http://www.esenmall.com/Areas/Mobile/Themes/M1/Content/new/images/icon_back.png"></div>
-			</router-link>
+				<div class="back">
+					<a href="javascript:history.go(-1)">
+						<img src="http://www.esenmall.com/Areas/Mobile/Themes/M1/Content/new/images/icon_back.png">
+					</a>
+				</div>
 				<div class="home"><img width="26px" height="23.11px" src="../../images/icon_home.png"></div>
 		</div>
 
