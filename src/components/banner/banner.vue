@@ -181,7 +181,8 @@ li{
     width: 30px;
     height: 30px;
     float: right;
-    margin-right: 10px;
+    margin-right: 22px;
+    margin-top:2px;
 }
 
 .search{
