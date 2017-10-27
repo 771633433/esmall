@@ -229,7 +229,7 @@ li{
 
 .img{
     padding-bottom: 6px;
-    padding-top: 10%;
+    margin-top: 18px;
     width: 52px;
     height: 52px;
     text-align: center;
