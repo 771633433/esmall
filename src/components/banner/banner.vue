@@ -14,7 +14,7 @@
       </div>
       <!-- search 那个放大镜按钮-->
       <div class="right">
-        <img class="search_icon" :src="seller.search"></div>
+        <img class="search_icon" width="100%" height="100%" :src="seller.search"></div>
     </div>
 
         <!--  钱柜-->
@@ -178,9 +178,10 @@ li{
     background: #f5efef
 }
 .right{
-    width: 41px;
-    height: 42px;
-    float: right
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-right: 10px;
 }
 
 .search{
