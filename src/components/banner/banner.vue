@@ -189,7 +189,7 @@ li{
     position: relative;
     width: 100%;
     height: 42px;
-    padding-top: 10px;
+    margin-top: 8px;
     background: #f5efef;
 } 
  
