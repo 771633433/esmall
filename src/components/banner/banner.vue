@@ -25,6 +25,7 @@
 
     <!--  九大块 -->
     <div class="items">
+      <!--  电焊机   -->
       <router-link to="list/dhj">
         <div class="dhj" >
             <img class="img" :src="seller.dhj">
@@ -32,6 +33,7 @@
         </div>
       </router-link>
 
+      <!--  辅机具   -->
       <router-link to="list/fjj">
         <div class="dhj" >
             <img class="img" :src="seller.fjj">
@@ -132,7 +134,12 @@
       },
       methods:{
         search_goods(){
-          console.log(this.value);
+          //console.log(this.value);
+          if (this.value.includes('电焊')) {
+              console.log('包含电焊机');
+          }else{
+            console.log('不包含');
+          }
         }
     },
     created(){
