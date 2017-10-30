@@ -35,7 +35,7 @@
 			<div class="copyright">
 				Copyright © 2013-2020 Essen Mall All Rights Reserved
 				<br>
-				技术支持：鼎联网络科技
+				技术支持：鼎灏网络科技
 			</div>	
 		</div>
 		<!-- {{$route.params.id}} -->
