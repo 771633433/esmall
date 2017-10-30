@@ -10,11 +10,12 @@
         <!--搜索栏-->
     <div class="search">
       <div class="left">
-      <input style="text-indent:4px;" id="inp" type="text" placeholder="搜索品牌/系列/型号">
+      <input style="text-indent:4px;" id="inp" v-model='value' type="text" placeholder="搜索品牌/系列/型号">
       </div>
       <!-- search 那个放大镜按钮-->
       <div class="right">
-        <img class="search_icon" width="100%" height="100%" :src="seller.search"></div>
+        <img class="search_icon" @click="search_goods" width="100%" height="100%" :src="seller.search">
+      </div>
     </div>
 
         <!--  钱柜-->
@@ -125,12 +126,16 @@
           return {
             seller:{},
             result:{},
-            machines:[]  
+            machines:[],
+            value:''  
           }   
       },
       methods:{
+        search_goods(){
+          console.log(this.value);
+        }
     },
-    created:function(){
+    created(){
         axios.get('/api/seller')
           .then( (response)=> {
              var seller=response.data.data;
@@ -181,8 +186,8 @@ li{
     width: 30px;
     height: 30px;
     float: right;
+    margin-top: 2px;
     margin-right: 22px;
-    margin-top:2px;
 }
 
 .search{
