@@ -10,7 +10,7 @@
         <!--搜索栏-->
     <div class="search">
       <div class="left">
-      <input style="text-indent:4px;" id="inp" v-model='value' type="text" placeholder="搜索品牌/系列/型号">
+      <input style="" id="inp" v-model='value' type="text" placeholder="搜索品牌/系列/型号">
       </div>
       <!-- search 那个放大镜按钮-->
       <div class="right">
@@ -136,7 +136,7 @@
         search_goods(){
           //console.log(this.value);
           if (this.value.includes('电焊')) {
-              //console.log('包含电焊机');
+              // console.log('包含电焊机');
               this.$router.push({path:'list/dhj'});
           }else{
             console.log('不包含');
@@ -194,15 +194,15 @@ li{
     width: 30px;
     height: 30px;
     float: right;
-    margin-top: 2px;
-    margin-right: 22px;
+    margin-top: 8px;
+    margin-right: 16px;
 }
 
 .search{
     position: relative;
     width: 100%;
     height: 42px;
-    margin-top: 8px;
+    margin-top: 0px;
     background: #f5efef;
 } 
  
@@ -212,6 +212,12 @@ li{
     width: 80%;
     position: absolute;
     left: 12px;
+    text-indent:4px; 
+    margin-top:4px;
+    border-radius: 16px;
+    outline: none;
+    text-indent: 1em;
+    margin-left: 10px;
 }
 
 .qiangui{
