@@ -136,7 +136,7 @@
         search_goods(){
           //console.log(this.value);
           if (this.value.includes('电焊')) {
-              console.log('包含电焊机');
+              //console.log('包含电焊机');
               this.$router.push({path:'list/dhj'});
           }else{
             console.log('不包含');
