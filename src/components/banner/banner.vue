@@ -1,11 +1,34 @@
 <template>
   <div class="div1">
         <!-- 轮播图 -->
-    <div class="slider">
+    <!-- <div class="slider">
       <li>
          <img width="100%" height="100%" :src="seller.avatar">
       </li>
-    </div> 
+    </div>  -->
+
+
+    <!--  iview走马灯轮播图   -->
+      <Carousel autoplay dots='none' v-model="value3" loop @on-change="dis()">
+        <CarouselItem>
+          <div>
+            <img width="100%" height="100%" :src="seller.avatar">
+          </div>
+        </CarouselItem>
+
+        <CarouselItem>
+          <div>
+            <img width="100%" height="100%" :src="seller.avatar">
+          </div>
+        </CarouselItem>
+
+        <CarouselItem>
+          <div>
+            <img width="100%" height="100%" :src="seller.avatar">
+          </div>
+        </CarouselItem>
+      </Carousel>
+
 
         <!--搜索栏-->
     <div class="search">
