@@ -11,23 +11,25 @@
     <!--  iview走马灯轮播图   -->
       <Carousel autoplay dots='none' v-model="value3" loop @on-change="dis()">
         <CarouselItem>
-          <div>
+          <div class="demo-carousel">
             <img width="100%" height="100%" :src="seller.avatar">
           </div>
         </CarouselItem>
 
         <CarouselItem>
-          <div>
+          <div class="demo-carousel">
             <img width="100%" height="100%" :src="seller.avatar">
           </div>
         </CarouselItem>
 
         <CarouselItem>
-          <div>
+          <div class="demo-carousel">
             <img width="100%" height="100%" :src="seller.avatar">
           </div>
         </CarouselItem>
       </Carousel>
+
+
 
 
         <!--搜索栏-->
@@ -152,7 +154,8 @@
             seller:{},
             result:{},
             machines:[],
-            value:''  
+            value:''  ,
+            value3: 0
           }   
       },
       methods:{
@@ -165,6 +168,10 @@
           }else{
             //console.log('不包含');
           }
+        },
+        // 走马灯循环时的事件
+        dis(){
+          console.log(this.value3);
         }
     },
     created(){
@@ -213,6 +220,11 @@ li{
   
 .slider{
     background: #f5efef
+}
+
+.demo-carousel{
+  /*width: 100%;*/
+  height: auto;
 }
 .right{
     width: 30px;
