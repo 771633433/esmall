@@ -11,9 +11,9 @@ Vue.use(Router)
 Vue.use(iView)
 
 const router = new Router({
+	mode:'history',
 	routes:[
-		{path:'/',redirect:"/goods"},
-		{path:"/goods",component:banner},
+		{path:'/',component:banner},
 		{path:"/list/:id",component:dhj},
 		{path:"/detail/:id",component:detail}
 	]
