@@ -25,7 +25,7 @@
 					<!-- {{machine}} -->
 					<router-link :to="'/detail/'+machine.id">
 						<div class="prt_pic">
-							<img :src=" 'images/' + machine.images[0].image_name ">
+							<img :src="'/images/'+ machine.images[0].image_name ">
 						</div>
 					    <div class="prt_icon">
 							<img src="http://www.esenmall.com/Areas/Mobile/Themes/M1/Content/new/images/icon_list.png">
@@ -56,13 +56,16 @@ import axios from "axios";
 
 		created:function(){
 			 axios.get(`../../../static/${this.$route.params.id}.json`)
-        .then( (response)=> {
-           this.machines = response.data.data;
-           //console.log(this.machines[0].images[0].image_name);
-          })
-            .catch((error)=> {
-            console.log(error);
-        });
+        		.then( (response)=> {
+           			this.machines = response.data.data;
+           			//console.log(this.machines[0].images[0].image_name);
+          		})
+        		.catch((error)=> {
+            		console.log(error);
+        		});
+		},
+		methods:{
+			
 		}
 	}
 </script>
