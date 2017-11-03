@@ -173,7 +173,7 @@
         },
         // 走马灯循环时的事件
         dis(){
-          console.log(this.value3);
+          // console.log(this.value3);
         }
     },
     created(){
