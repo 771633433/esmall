@@ -165,6 +165,8 @@
               this.$router.push({path:'list/dhj'});
           }if(this.value.includes('辅机')) {
               this.$router.push({path:'list/fjj'});
+          }if (this.value.includes('焊接')) {
+              this.$router.push({path:'list/hjpj'});
           }else{
             //console.log('不包含');
           }
