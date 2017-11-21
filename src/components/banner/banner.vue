@@ -194,7 +194,7 @@
               this.machines = res.data.data;
           })
             .catch((error)=> {
-            console.log(error);
+            
         });
 
 
