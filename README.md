@@ -1,4 +1,4 @@
-> A Vue.js project
+> 项目技术栈 vue+vue-router+vuex+iview
 
 ## Build Setup
 
