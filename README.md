@@ -1,5 +1,7 @@
 > 项目技术栈 vue+vue-router+vuex+iview
 
+项目是小组合作开发的埃森商城移动端项目,移动端页面效果图可以在下面看到。
+
 ## Build Setup
 
 ``` bash
@@ -16,4 +18,4 @@ npm run build
 npm run build --report
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
